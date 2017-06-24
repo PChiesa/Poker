@@ -1,10 +1,17 @@
 ﻿using System;
 namespace Poker
 {
-    public class CardHands
+    public enum CardHands
     {
-        public CardHands()
-        {
-        }
+        HighCard = 1,
+        OnePair,
+        TwoPair,
+        ThreeOfAKind,
+        Straight,
+        Flush,
+        FullHouse,
+        FourOfAKind,
+        StraightFlush,
+        RoyalStraightFlush
     }
 }

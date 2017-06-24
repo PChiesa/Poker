@@ -1,8 +1,12 @@
 ﻿using System;
 namespace Poker
 {
-    public struct CardSymbol
+    public static class CardSymbol
     {
-        public string 
+		public const string Joker = "Joker";
+        public const string Jack = "J";
+        public const string Queen = "Q";
+        public const string King = "K";
+        public const string Ace = "A";
     }
 }

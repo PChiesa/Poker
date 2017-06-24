@@ -1,10 +1,11 @@
 ﻿using System;
 namespace Poker
 {
-    public class CardSuit
+    public enum CardSuit
     {
-        public CardSuit()
-        {
-        }
+        Clubs,
+        Hearts,
+        Spades,
+        Diamonds
     }
 }

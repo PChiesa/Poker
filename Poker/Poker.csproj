@@ -34,6 +34,26 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Card.cs" />
+    <Compile Include="CardRank.cs" />
+    <Compile Include="CardHands.cs" />
+    <Compile Include="ICardHand.cs" />
+    <Compile Include="Player.cs" />
+    <Compile Include="Hands\TwoPair.cs" />
+    <Compile Include="Hands\OnePair.cs" />
+    <Compile Include="Hands\ThreeOfAKind.cs" />
+    <Compile Include="Hands\Straight.cs" />
+    <Compile Include="CardSuit.cs" />
+    <Compile Include="Hands\Flush.cs" />
+    <Compile Include="Hands\FullHouse.cs" />
+    <Compile Include="Hands\FourOfAKind.cs" />
+    <Compile Include="Hands\StraightFlush.cs" />
+    <Compile Include="Hands\RoyalStraightFlush.cs" />
+    <Compile Include="CardHandValidator.cs" />
+    <Compile Include="CardHandGenerator.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Hands\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

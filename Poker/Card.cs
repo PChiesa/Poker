@@ -1,10 +1,16 @@
 ﻿using System;
 namespace Poker
 {
-    public class Card
+    public struct Card
     {
-        public Card()
+        public CardSuit CardSuit { get; set; }
+
+        public CardRank CardRank { get; set; }
+
+        public Card(CardRank rank, CardSuit suit)
         {
+            CardRank = rank;
+            CardSuit = suit;
         }
     }
 }

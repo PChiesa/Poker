@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poker", "Poker\Poker.csproj", "{0FA34B84-8733-492D-9A4F-77B2798805E7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poker.Tests", "Poker.Tests\Poker.Tests.csproj", "{4B0B0F44-493B-471E-B6DE-C88DB1BF84E0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,5 +15,9 @@ Global
 		{0FA34B84-8733-492D-9A4F-77B2798805E7}.Debug|x86.Build.0 = Debug|x86
 		{0FA34B84-8733-492D-9A4F-77B2798805E7}.Release|x86.ActiveCfg = Release|x86
 		{0FA34B84-8733-492D-9A4F-77B2798805E7}.Release|x86.Build.0 = Release|x86
+		{4B0B0F44-493B-471E-B6DE-C88DB1BF84E0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4B0B0F44-493B-471E-B6DE-C88DB1BF84E0}.Debug|x86.Build.0 = Debug|Any CPU
+		{4B0B0F44-493B-471E-B6DE-C88DB1BF84E0}.Release|x86.ActiveCfg = Release|Any CPU
+		{4B0B0F44-493B-471E-B6DE-C88DB1BF84E0}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
